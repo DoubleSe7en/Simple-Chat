@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45851D748A79922666977E4E /* libPods-SimpleChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921F6EBD8270D1B9BD56A1B8 /* libPods-SimpleChat.a */; };
+		5C0AC5B821F4BAE5000B8FC1 /* ListChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AC5B721F4BAE5000B8FC1 /* ListChatTableViewCell.swift */; };
+		5C0E745621F35D2100BD3F1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E745521F35D2000BD3F1B /* GoogleService-Info.plist */; };
+		5C0E745821F37D8300BD3F1B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E745721F37D8300BD3F1B /* MainViewController.swift */; };
+		5C0E745A21F3966B00BD3F1B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E745921F3966B00BD3F1B /* User.swift */; };
+		5C0E745C21F3A92500BD3F1B /* ListFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E745B21F3A92500BD3F1B /* ListFriendTableViewCell.swift */; };
+		5C4483DF21F4824200D1D297 /* FriendChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4483DE21F4824200D1D297 /* FriendChatTableViewCell.swift */; };
+		5C4483E121F4826100D1D297 /* MyChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4483E021F4826100D1D297 /* MyChatTableViewCell.swift */; };
 		5C9F5EF821F20D7500B3DDE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5EF721F20D7500B3DDE3 /* AppDelegate.swift */; };
-		5C9F5EFA21F20D7500B3DDE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5EF921F20D7500B3DDE3 /* ViewController.swift */; };
-		5C9F5EFD21F20D7500B3DDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F5EFB21F20D7500B3DDE3 /* Main.storyboard */; };
 		5C9F5EFF21F20D7800B3DDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F5EFE21F20D7800B3DDE3 /* Assets.xcassets */; };
 		5C9F5F0221F20D7800B3DDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F5F0021F20D7800B3DDE3 /* LaunchScreen.storyboard */; };
 		5C9F5F0D21F20D7800B3DDE3 /* SimpleChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F0C21F20D7800B3DDE3 /* SimpleChatTests.swift */; };
 		5C9F5F1821F20D7900B3DDE3 /* SimpleChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F1721F20D7900B3DDE3 /* SimpleChatUITests.swift */; };
+		5C9F5F3221F20ED900B3DDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3121F20ED900B3DDE3 /* Main.storyboard */; };
+		5C9F5F3521F2110800B3DDE3 /* ScreenRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3421F2110800B3DDE3 /* ScreenRegisterViewController.swift */; };
+		5C9F5F3721F2113800B3DDE3 /* ScreenChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3621F2113800B3DDE3 /* ScreenChatViewController.swift */; };
+		5C9F5F3921F2115600B3DDE3 /* ScreenListChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3821F2115600B3DDE3 /* ScreenListChatViewController.swift */; };
+		5C9F5F3B21F2116900B3DDE3 /* ScreenListFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3A21F2116900B3DDE3 /* ScreenListFriendViewController.swift */; };
+		5C9F5F3D21F2118600B3DDE3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F3C21F2118600B3DDE3 /* BaseView.swift */; };
+		5C9F5F4421F23E9D00B3DDE3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9F5F4321F23E9D00B3DDE3 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E34ED65DFC45F939F061D4E /* Pods-SimpleChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleChat/Pods-SimpleChat.release.xcconfig"; sourceTree = "<group>"; };
+		5C0AC5B721F4BAE5000B8FC1 /* ListChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatTableViewCell.swift; sourceTree = "<group>"; };
+		5C0E745521F35D2000BD3F1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C0E745721F37D8300BD3F1B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5C0E745921F3966B00BD3F1B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5C0E745B21F3A92500BD3F1B /* ListFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFriendTableViewCell.swift; sourceTree = "<group>"; };
+		5C4483DE21F4824200D1D297 /* FriendChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendChatTableViewCell.swift; sourceTree = "<group>"; };
+		5C4483E021F4826100D1D297 /* MyChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatTableViewCell.swift; sourceTree = "<group>"; };
 		5C9F5EF421F20D7500B3DDE3 /* SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9F5EF721F20D7500B3DDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C9F5EF921F20D7500B3DDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C9F5EFC21F20D7500B3DDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C9F5EFE21F20D7800B3DDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C9F5F0121F20D7800B3DDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C9F5F0321F20D7800B3DDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +66,17 @@
 		5C9F5F1321F20D7900B3DDE3 /* SimpleChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9F5F1721F20D7900B3DDE3 /* SimpleChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChatUITests.swift; sourceTree = "<group>"; };
 		5C9F5F1921F20D7900B3DDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9F5F3121F20ED900B3DDE3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C9F5F3421F2110800B3DDE3 /* ScreenRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRegisterViewController.swift; sourceTree = "<group>"; };
+		5C9F5F3621F2113800B3DDE3 /* ScreenChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenChatViewController.swift; sourceTree = "<group>"; };
+		5C9F5F3821F2115600B3DDE3 /* ScreenListChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListChatViewController.swift; sourceTree = "<group>"; };
+		5C9F5F3A21F2116900B3DDE3 /* ScreenListFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListFriendViewController.swift; sourceTree = "<group>"; };
+		5C9F5F3C21F2118600B3DDE3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		5C9F5F4021F23E4500B3DDE3 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5C9F5F4221F23E9B00B3DDE3 /* SimpleChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C9F5F4321F23E9D00B3DDE3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7249C4A33F391EE652C33E53 /* Pods-SimpleChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleChat/Pods-SimpleChat.debug.xcconfig"; sourceTree = "<group>"; };
+		921F6EBD8270D1B9BD56A1B8 /* libPods-SimpleChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45851D748A79922666977E4E /* libPods-SimpleChat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C92E8AA545E5E5ED9B9C389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921F6EBD8270D1B9BD56A1B8 /* libPods-SimpleChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C9F5EEB21F20D7500B3DDE3 = {
 			isa = PBXGroup;
 			children = (
-				5C9F5EF621F20D7500B3DDE3 /* SimpleChat */,
-				5C9F5F0B21F20D7800B3DDE3 /* SimpleChatTests */,
-				5C9F5F1621F20D7900B3DDE3 /* SimpleChatUITests */,
-				5C9F5EF521F20D7500B3DDE3 /* Products */,
+				5C9F5F3321F20F3200B3DDE3 /* SimpleChat */,
+				940495993D0EF845BE3678C5 /* Pods */,
+				0C92E8AA545E5E5ED9B9C389 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,19 +130,22 @@
 				5C9F5F1321F20D7900B3DDE3 /* SimpleChatUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		5C9F5EF621F20D7500B3DDE3 /* SimpleChat */ = {
+		5C9F5EF621F20D7500B3DDE3 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				5C0E745521F35D2000BD3F1B /* GoogleService-Info.plist */,
+				5C9F5F4321F23E9D00B3DDE3 /* SWRevealViewController.m */,
+				5C9F5F4021F23E4500B3DDE3 /* SWRevealViewController.h */,
 				5C9F5EF721F20D7500B3DDE3 /* AppDelegate.swift */,
-				5C9F5EF921F20D7500B3DDE3 /* ViewController.swift */,
-				5C9F5EFB21F20D7500B3DDE3 /* Main.storyboard */,
 				5C9F5EFE21F20D7800B3DDE3 /* Assets.xcassets */,
 				5C9F5F0021F20D7800B3DDE3 /* LaunchScreen.storyboard */,
 				5C9F5F0321F20D7800B3DDE3 /* Info.plist */,
+				5C9F5F4221F23E9B00B3DDE3 /* SimpleChat-Bridging-Header.h */,
 			);
-			path = SimpleChat;
+			path = Support;
 			sourceTree = "<group>";
 		};
 		5C9F5F0B21F20D7800B3DDE3 /* SimpleChatTests */ = {
@@ -125,6 +166,71 @@
 			path = SimpleChatUITests;
 			sourceTree = "<group>";
 		};
+		5C9F5F2521F20DBF00B3DDE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C9F5F3121F20ED900B3DDE3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C9F5F2821F20E1400B3DDE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C9F5F3C21F2118600B3DDE3 /* BaseView.swift */,
+				5C0E745921F3966B00BD3F1B /* User.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5C9F5F2921F20E1F00B3DDE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C0E745B21F3A92500BD3F1B /* ListFriendTableViewCell.swift */,
+				5C9F5F3421F2110800B3DDE3 /* ScreenRegisterViewController.swift */,
+				5C9F5F3621F2113800B3DDE3 /* ScreenChatViewController.swift */,
+				5C9F5F3821F2115600B3DDE3 /* ScreenListChatViewController.swift */,
+				5C9F5F3A21F2116900B3DDE3 /* ScreenListFriendViewController.swift */,
+				5C0E745721F37D8300BD3F1B /* MainViewController.swift */,
+				5C4483DE21F4824200D1D297 /* FriendChatTableViewCell.swift */,
+				5C4483E021F4826100D1D297 /* MyChatTableViewCell.swift */,
+				5C0AC5B721F4BAE5000B8FC1 /* ListChatTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C9F5F2A21F20E8800B3DDE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C9F5F3321F20F3200B3DDE3 /* SimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				5C9F5EF521F20D7500B3DDE3 /* Products */,
+				5C9F5F1621F20D7900B3DDE3 /* SimpleChatUITests */,
+				5C9F5F0B21F20D7800B3DDE3 /* SimpleChatTests */,
+				5C9F5EF621F20D7500B3DDE3 /* Support */,
+				5C9F5F2521F20DBF00B3DDE3 /* View */,
+				5C9F5F2821F20E1400B3DDE3 /* Model */,
+				5C9F5F2921F20E1F00B3DDE3 /* Controller */,
+				5C9F5F2A21F20E8800B3DDE3 /* Pods */,
+			);
+			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		940495993D0EF845BE3678C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7249C4A33F391EE652C33E53 /* Pods-SimpleChat.debug.xcconfig */,
+				0E34ED65DFC45F939F061D4E /* Pods-SimpleChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C9F5F1C21F20D7900B3DDE3 /* Build configuration list for PBXNativeTarget "SimpleChat" */;
 			buildPhases = (
+				9762254717967CAA66A75F2D /* [CP] Check Pods Manifest.lock */,
 				5C9F5EF021F20D7500B3DDE3 /* Sources */,
 				5C9F5EF121F20D7500B3DDE3 /* Frameworks */,
 				5C9F5EF221F20D7500B3DDE3 /* Resources */,
@@ -193,6 +300,7 @@
 				TargetAttributes = {
 					5C9F5EF321F20D7500B3DDE3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					5C9F5F0721F20D7800B3DDE3 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -230,8 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C9F5F0221F20D7800B3DDE3 /* LaunchScreen.storyboard in Resources */,
+				5C0E745621F35D2100BD3F1B /* GoogleService-Info.plist in Resources */,
 				5C9F5EFF21F20D7800B3DDE3 /* Assets.xcassets in Resources */,
-				5C9F5EFD21F20D7500B3DDE3 /* Main.storyboard in Resources */,
+				5C9F5F3221F20ED900B3DDE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +360,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9762254717967CAA66A75F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C9F5EF021F20D7500B3DDE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C9F5EFA21F20D7500B3DDE3 /* ViewController.swift in Sources */,
+				5C0AC5B821F4BAE5000B8FC1 /* ListChatTableViewCell.swift in Sources */,
+				5C9F5F3B21F2116900B3DDE3 /* ScreenListFriendViewController.swift in Sources */,
+				5C4483E121F4826100D1D297 /* MyChatTableViewCell.swift in Sources */,
+				5C9F5F3921F2115600B3DDE3 /* ScreenListChatViewController.swift in Sources */,
+				5C9F5F3721F2113800B3DDE3 /* ScreenChatViewController.swift in Sources */,
+				5C9F5F4421F23E9D00B3DDE3 /* SWRevealViewController.m in Sources */,
+				5C9F5F3D21F2118600B3DDE3 /* BaseView.swift in Sources */,
+				5C0E745A21F3966B00BD3F1B /* User.swift in Sources */,
 				5C9F5EF821F20D7500B3DDE3 /* AppDelegate.swift in Sources */,
+				5C0E745C21F3A92500BD3F1B /* ListFriendTableViewCell.swift in Sources */,
+				5C9F5F3521F2110800B3DDE3 /* ScreenRegisterViewController.swift in Sources */,
+				5C0E745821F37D8300BD3F1B /* MainViewController.swift in Sources */,
+				5C4483DF21F4824200D1D297 /* FriendChatTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +434,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C9F5EFB21F20D7500B3DDE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C9F5EFC21F20D7500B3DDE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C9F5F0021F20D7800B3DDE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,16 +561,21 @@
 		};
 		5C9F5F1D21F20D7900B3DDE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7249C4A33F391EE652C33E53 /* Pods-SimpleChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleChat/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleChat/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.SimpleChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleChat/Support/SimpleChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +583,20 @@
 		};
 		5C9F5F1E21F20D7900B3DDE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E34ED65DFC45F939F061D4E /* Pods-SimpleChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SimpleChat/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleChat/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NguyenCuong.SimpleChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleChat/Support/SimpleChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

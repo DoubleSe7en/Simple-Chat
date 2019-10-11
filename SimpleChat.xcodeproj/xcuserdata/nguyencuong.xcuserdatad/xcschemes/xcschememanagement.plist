@@ -7,7 +7,25 @@
 		<key>SimpleChat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5C9F5EF321F20D7500B3DDE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C9F5F0721F20D7800B3DDE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C9F5F1221F20D7900B3DDE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
